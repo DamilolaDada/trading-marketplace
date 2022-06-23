@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: lightgrey; */
+}
+
+body {
+  font-family: rokkitt, serif;
+  background-color: lightgrey;
+}
+a {
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  color: #ffffff;
+}
+
+.navbar {
+  background:#4C5AE1;
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: 4.5em;
+}
+.logo{
+  width: 20%;
+  display: flex;
+  gap: 0.6em;
+  height: 2.5em;
+  align-self: center;
+  justify-content: center;
+}
+.slant-logo {
+  width: 7px;
+  height: 36px;
+  background: #ffffff;
+  border-radius: 2px;
+  transform: rotate(30deg);
+}
+.circle-logo{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ffffff;
+  align-self: center;
+}
+.nav-links{
+  margin: auto;
+}
+
+.nav-links .menu {
+  display: flex;
+  gap: 5em;
+}
+.sign_in_btn {
+  width: 5em;
+  height: 2em;
+  background: #4C5AE1;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  align-self: center;
+  margin: 0 5em;
+
+}
+.create_account_btn {
+  width: 8em;
+  height: 2em;
+  background: #ffffff;
+  color: #4C5AE1;
+  border-radius: 5px;
+  gap: 1.5em;
+  border: none;
+  align-self: center;
+}
+
+input[type=checkbox]{
+ display: none;
+}
+
+.hamburger {
+ display: none;
+ font-size: 24px;
+ user-select: none;
+}
+
+.color-text {
+  color: #4C5AE1;
+}
+
+.cta {
+  display: flex;
+}
+
+.content {
+  width: 50%;
+  padding:6.3em;
+}
+
+.text-bg {
+  font-size: 4.5em;
+  line-height: 1.5em;
+}
+.text-md{
+  font-size:1.5em;
+  line-height: 1.5em;
+}
+.cta-input {
+  width: 13em;
+  height: 2em;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-top: 3em;
+}
+.cta-btn {
+  width: 8em;
+  height: 2em;
+  background: #4C5AE1;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.content1 {
+  width: 50%;
+}
+.phone-img{
+  display: block;
+  margin: 7em auto 0 auto;
+  width: 14em;
+}
+.dl-btns {
+  color: #4C5AE1;
+  background: #ffffff;
+  height: 2em;
+  width: 7em;
+}
